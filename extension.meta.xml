@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="settings" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
+    <name>Settings</name>
+    <description>Symphony CMS Extension for storing and retrieving key/value settings in a simple and clean way.</description>
+    <repo type="github">https://github.com/pointybeard/settings</repo>
+    <url type="discuss">http://symphony-cms.com/discuss/thread/27322/</url>
+    <types>
+        <type>Utility</type>
+        <type>Workflow</type>
+    </types>
+    <authors>
+        <author>
+            <name github="pointybeard" symphony="team">Alannah Kearney</name>
+            <website>http://alannahkearney.com</website>
+        </author>
+    </authors>
+    <releases>
+        <release version="0.1.0" date="2020-03-11" max="2.7.10" />
+    </releases>
+</extension>

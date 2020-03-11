@@ -1,0 +1,83 @@
+{
+    "sections": [
+        {
+            "modificationAuthorId": 1,
+            "authorId": 1,
+            "navigationGroup": "System",
+            "allowFiltering": false,
+            "hideFromBackendNavigation": false,
+            "sortOrder": 22,
+            "handle": "settings",
+            "name": "Settings",
+            "fields": [
+                {
+                    "required": true,
+                    "showColumn": true,
+                    "location": "sidebar",
+                    "sortOrder": 3,
+                    "elementName": "date-created-at",
+                    "label": "Date Created At",
+                    "type": "date",
+                    "custom": {
+                        "prePopulate": "now",
+                        "calendar": false,
+                        "time": true
+                    }
+                },
+                {
+                    "required": false,
+                    "showColumn": true,
+                    "location": "sidebar",
+                    "sortOrder": 4,
+                    "elementName": "date-modified-at",
+                    "label": "Date Modified At",
+                    "type": "date",
+                    "custom": {
+                        "prePopulate": "",
+                        "calendar": false,
+                        "time": true
+                    }
+                },
+                {
+                    "required": true,
+                    "showColumn": true,
+                    "location": "sidebar",
+                    "sortOrder": 1,
+                    "elementName": "groups",
+                    "label": "Groups",
+                    "type": "taglist",
+                    "custom": {
+                        "prePopulateSource": "existing",
+                        "validator": ""
+                    }
+                },
+                {
+                    "required": true,
+                    "showColumn": true,
+                    "location": "main",
+                    "sortOrder": 0,
+                    "elementName": "name",
+                    "label": "Name",
+                    "type": "input",
+                    "custom": {
+                        "validator": ""
+                    }
+                },
+                {
+                    "required": true,
+                    "showColumn": true,
+                    "location": "main",
+                    "sortOrder": 2,
+                    "elementName": "value",
+                    "label": "Value",
+                    "type": "textarea",
+                    "custom": {
+                        "size": 5,
+                        "formatter": ""
+                    }
+                }
+            ],
+            "associations": []
+        }
+    ]
+}

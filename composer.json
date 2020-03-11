@@ -1,0 +1,30 @@
+{
+    "name": "pointybeard/settings",
+    "description": "Symphony CMS Extension for storing and retrieving key/value settings in a simple and clean way.",
+    "homepage": "https://github.com/pointybeard/settings",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alannah Kearney",
+            "email": "hi@alannahkearney.com",
+            "homepage": "http://alannahkearney.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/pointybeard/settings/issues",
+      "wiki": "https://github.com/pointybeard/settings/wiki"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "pointybeard\\Symphony\\Extensions\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "pointybeard/helpers": "~1.2.0",
+        "pointybeard/symphony-classmapper": "~2.0.0",
+        "pointybeard/symphony-section-builder": "~0.2.0"
+    }
+}
