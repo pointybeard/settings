@@ -43,8 +43,8 @@
                     "showColumn": true,
                     "location": "sidebar",
                     "sortOrder": 1,
-                    "elementName": "groups",
-                    "label": "Groups",
+                    "elementName": "group",
+                    "label": "Group",
                     "type": "taglist",
                     "custom": {
                         "prePopulateSource": "existing",
